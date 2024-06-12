@@ -2,9 +2,4 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.serein.wordbook.mapper.UserMapper">
-
-    <select id="findByUsername" resultType="com.serein.wordbook.entity.User">
-        SELECT * FROM user_info WHERE username = #{username}
-    </select>
-
 </mapper>

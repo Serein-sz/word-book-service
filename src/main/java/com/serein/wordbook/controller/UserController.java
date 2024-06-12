@@ -1,5 +1,6 @@
 package com.serein.wordbook.controller;
 
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.serein.wordbook.entity.User;
 import com.serein.wordbook.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -22,6 +23,7 @@ public class UserController {
 
     @GetMapping
     public User hello() {
-        return userService.findByUsername("2");
+        return userService.getOne(Wrappers.<User>lambdaQuery().eq(User::getUsername, "2"));
     }
+
 }

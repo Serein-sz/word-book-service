@@ -1,25 +1,14 @@
 package com.serein.wordbook.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.serein.wordbook.entity.User;
-import com.serein.wordbook.mapper.UserMapper;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
 
 /**
- * user service
+ * TODO
  *
  * @author 王强
- * @since 2024/6/4 23:53
+ * @since 2024/6/11 20:55
  */
-@Service
-@RequiredArgsConstructor
-public class UserService {
-
-    private final UserMapper userMapper;
-
-    public User findByUsername(String username) {
-        User user = userMapper.findByUsername(username);
-        return user;
-    }
+public interface UserService extends IService<User> {
 
 }
