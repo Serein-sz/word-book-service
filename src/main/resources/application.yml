@@ -39,3 +39,8 @@ sa-token:
   token-style: uuid
   # 是否输出操作日志
   is-log: true
+
+translate:
+  baidu:
+    appid: 20230317001603615
+    secret: 48Vnw83nMhBZ6dlj2PNh

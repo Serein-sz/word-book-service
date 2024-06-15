@@ -1,4 +1,4 @@
-package com.serein.wordbook.service;
+package com.serein.wordbook.service.impl;
 
 import com.serein.wordbook.entity.Words;
 import org.springframework.ai.chat.client.ChatClient;

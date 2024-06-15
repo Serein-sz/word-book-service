@@ -2,7 +2,7 @@ package com.serein.wordbook.controller;
 
 import com.serein.wordbook.common.Response;
 import com.serein.wordbook.entity.Words;
-import com.serein.wordbook.service.ChatService;
+import com.serein.wordbook.service.impl.ChatService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
