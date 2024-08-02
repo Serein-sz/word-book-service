@@ -6,15 +6,15 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://112.125.89.224:3308/word_book?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: Caonima3344
+    password: 
   data:
     redis:
       host: 112.125.89.224
       port: 6379
-      password: caonima3344
+      password: 
   ai:
     openai:
-      api-key: sk-QVy3doHm7g5tVPZt51Cd5882279c41C1Be67C780C4974886
+      api-key: 
       base-url: https://shitongxue.cn
       chat:
         options:
@@ -42,5 +42,5 @@ sa-token:
 
 translate:
   baidu:
-    appid: 20230317001603615
-    secret: 48Vnw83nMhBZ6dlj2PNh
+    appid: 
+    secret: 
